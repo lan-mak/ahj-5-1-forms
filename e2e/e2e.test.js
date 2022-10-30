@@ -3,7 +3,7 @@ import { fork } from 'child_process';
 
 jest.setTimeout(30000); // default puppeteer timeout
 
-describe('Credit Card Validator form', () => {
+describe('Tooltip button', () => {
   let browser = null;
   let page = null;
   let server = null;
@@ -21,9 +21,9 @@ describe('Credit Card Validator form', () => {
     });
 
     browser = await puppetteer.launch({
-      // headless: false, // show gui
-      // slowMo: 250,
-      // devtools: true, // show devTools
+      headless: false, // show gui
+      slowMo: 250,
+      devtools: true, // show devTools
     });
     page = await browser.newPage();
   });

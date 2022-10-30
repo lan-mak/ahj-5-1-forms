@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/8j5o6p8h86di6xwt?svg=true)](https://ci.appveyor.com/project/lan-mak/ahj-5-1-forms)
+
 Правила сдачи задания:
 1. **Важно**: в рамках этого ДЗ вы можете использовать любой пакетный менеджер
 2. Всё должно собираться через Webpack (включая картинки и стили) и выкладываться на Github Pages через Appveyor.
